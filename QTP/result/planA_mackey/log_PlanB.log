@@ -1,0 +1,533 @@
+
+████████████████████████████████████████████████████████████
+  planA：QTP × mackey 消融实验
+████████████████████████████████████████████████████████████
+
+── A1: 窗口大小消融 ──
+
+  W=4  K=1  L=1
+  [QTP] Qubits:3  W:4  K:1  L:1  nf:1  Params:22
+  Epoch   1/50 | train:0.763985  valid:0.097199
+  Epoch   2/50 | train:0.066186  valid:0.025642
+  Epoch   3/50 | train:0.034853  valid:0.036534
+  Epoch   4/50 | train:0.029383  valid:0.033749
+  Epoch   5/50 | train:0.028512  valid:0.029713
+  Epoch   6/50 | train:0.026464  valid:0.027983
+  Epoch   7/50 | train:0.028236  valid:0.029238
+  Epoch   8/50 | train:0.029393  valid:0.027104
+  Epoch   9/50 | train:0.023913  valid:0.050685
+  Epoch  10/50 | train:0.025395  valid:0.018109
+  Epoch  11/50 | train:0.024552  valid:0.016383
+  Epoch  12/50 | train:0.021580  valid:0.019130
+  Epoch  13/50 | train:0.021648  valid:0.018128
+  Epoch  14/50 | train:0.028183  valid:0.022388
+  Epoch  15/50 | train:0.024189  valid:0.024948
+  Epoch  16/50 | train:0.024356  valid:0.020701
+  Epoch  17/50 | train:0.027591  valid:0.027938
+  Epoch  18/50 | train:0.019731  valid:0.012376
+  Epoch  19/50 | train:0.026185  valid:0.021197
+  Epoch  20/50 | train:0.021102  valid:0.014886
+  Epoch  21/50 | train:0.019231  valid:0.029236
+  Epoch  22/50 | train:0.017395  valid:0.035164
+  Epoch  23/50 | train:0.014924  valid:0.019950
+  Epoch  24/50 | train:0.015742  valid:0.018705
+  Epoch  25/50 | train:0.016895  valid:0.010823
+  Epoch  26/50 | train:0.014941  valid:0.010099
+  Epoch  27/50 | train:0.010026  valid:0.029451
+  Epoch  28/50 | train:0.009698  valid:0.014530
+  Epoch  29/50 | train:0.010982  valid:0.009926
+  Epoch  30/50 | train:0.012224  valid:0.011007
+  Epoch  31/50 | train:0.011253  valid:0.007579
+  Epoch  32/50 | train:0.010746  valid:0.014785
+  Epoch  33/50 | train:0.010672  valid:0.014998
+  Epoch  34/50 | train:0.011468  valid:0.043157
+  Epoch  35/50 | train:0.019544  valid:0.013052
+  Epoch  36/50 | train:0.014589  valid:0.014035
+  Epoch  37/50 | train:0.013956  valid:0.016540
+  Epoch  38/50 | train:0.011113  valid:0.007918
+  Epoch  39/50 | train:0.010919  valid:0.008726
+  Epoch  40/50 | train:0.011343  valid:0.011614
+  Epoch  41/50 | train:0.011088  valid:0.021659
+  Early stopping at epoch 41.
+  Best valid MSE: 0.007579
+  [QTP         ] [mackey]  MAE:0.077132  MSE:0.010543  RMSE:0.102677  R²:0.988813  Params:22
+
+  W=8  K=3  L=1
+  [QTP] Qubits:3  W:8  K:3  L:1  nf:1  Params:28
+  Epoch   1/50 | train:0.608774  valid:0.052898
+  Epoch   2/50 | train:0.047542  valid:0.050087
+  Epoch   3/50 | train:0.017026  valid:0.024474
+  Epoch   4/50 | train:0.012549  valid:0.008138
+  Epoch   5/50 | train:0.012044  valid:0.011260
+  Epoch   6/50 | train:0.012567  valid:0.019057
+  Epoch   7/50 | train:0.010298  valid:0.011792
+  Epoch   8/50 | train:0.011810  valid:0.022740
+  Epoch   9/50 | train:0.012196  valid:0.010990
+  Epoch  10/50 | train:0.008715  valid:0.007009
+  Epoch  11/50 | train:0.009739  valid:0.011769
+  Epoch  12/50 | train:0.008096  valid:0.007399
+  Epoch  13/50 | train:0.007791  valid:0.009399
+  Epoch  14/50 | train:0.007725  valid:0.013709
+  Epoch  15/50 | train:0.007157  valid:0.009306
+  Epoch  16/50 | train:0.007104  valid:0.009282
+  Epoch  17/50 | train:0.009396  valid:0.018044
+  Epoch  18/50 | train:0.009875  valid:0.007200
+  Epoch  19/50 | train:0.007938  valid:0.008712
+  Epoch  20/50 | train:0.008122  valid:0.007932
+  Early stopping at epoch 20.
+  Best valid MSE: 0.007009
+  [QTP         ] [mackey]  MAE:0.080016  MSE:0.012218  RMSE:0.110535  R²:0.987250  Params:28
+
+  W=12  K=4  L=1
+  [QTP] Qubits:3  W:12  K:4  L:1  nf:1  Params:36
+  Epoch   1/50 | train:0.520137  valid:0.133881
+  Epoch   2/50 | train:0.062932  valid:0.042830
+  Epoch   3/50 | train:0.034392  valid:0.037290
+  Epoch   4/50 | train:0.023646  valid:0.023200
+  Epoch   5/50 | train:0.016195  valid:0.008240
+  Epoch   6/50 | train:0.012258  valid:0.014714
+  Epoch   7/50 | train:0.009655  valid:0.010410
+  Epoch   8/50 | train:0.008580  valid:0.032208
+  Epoch   9/50 | train:0.012967  valid:0.006084
+  Epoch  10/50 | train:0.008979  valid:0.008436
+  Epoch  11/50 | train:0.007841  valid:0.005597
+  Epoch  12/50 | train:0.010357  valid:0.010429
+  Epoch  13/50 | train:0.010376  valid:0.011394
+  Epoch  14/50 | train:0.005917  valid:0.004588
+  Epoch  15/50 | train:0.006833  valid:0.005963
+  Epoch  16/50 | train:0.006013  valid:0.007474
+  Epoch  17/50 | train:0.008891  valid:0.007061
+  Epoch  18/50 | train:0.005984  valid:0.003614
+  Epoch  19/50 | train:0.006044  valid:0.005818
+  Epoch  20/50 | train:0.004624  valid:0.007948
+  Epoch  21/50 | train:0.005541  valid:0.007295
+  Epoch  22/50 | train:0.004346  valid:0.002389
+  Epoch  23/50 | train:0.008781  valid:0.005934
+  Epoch  24/50 | train:0.005748  valid:0.004088
+  Epoch  25/50 | train:0.003771  valid:0.012719
+  Epoch  26/50 | train:0.004245  valid:0.004325
+  Epoch  27/50 | train:0.004533  valid:0.002276
+  Epoch  28/50 | train:0.004754  valid:0.005324
+  Epoch  29/50 | train:0.005111  valid:0.003441
+  Epoch  30/50 | train:0.004271  valid:0.008883
+  Epoch  31/50 | train:0.004349  valid:0.003549
+  Epoch  32/50 | train:0.003427  valid:0.003647
+  Epoch  33/50 | train:0.004479  valid:0.008149
+  Epoch  34/50 | train:0.004846  valid:0.005171
+  Epoch  35/50 | train:0.004662  valid:0.005342
+  Epoch  36/50 | train:0.004256  valid:0.003715
+  Epoch  37/50 | train:0.003664  valid:0.002546
+  Early stopping at epoch 37.
+  Best valid MSE: 0.002276
+  [QTP         ] [mackey]  MAE:0.049567  MSE:0.004843  RMSE:0.069594  R²:0.995021  Params:36
+
+  W=16  K=5  L=1
+  [QTP] Qubits:3  W:16  K:5  L:1  nf:1  Params:46
+  Epoch   1/50 | train:0.556101  valid:0.051289
+  Epoch   2/50 | train:0.044298  valid:0.017198
+  Epoch   3/50 | train:0.021620  valid:0.018366
+  Epoch   4/50 | train:0.014738  valid:0.018818
+  Epoch   5/50 | train:0.013807  valid:0.045554
+  Epoch   6/50 | train:0.016541  valid:0.015504
+  Epoch   7/50 | train:0.012792  valid:0.021423
+  Epoch   8/50 | train:0.010982  valid:0.017238
+  Epoch   9/50 | train:0.008527  valid:0.010826
+  Epoch  10/50 | train:0.008862  valid:0.017468
+  Epoch  11/50 | train:0.008725  valid:0.018926
+  Epoch  12/50 | train:0.007597  valid:0.012537
+  Epoch  13/50 | train:0.006902  valid:0.008859
+  Epoch  14/50 | train:0.007593  valid:0.019263
+  Epoch  15/50 | train:0.007649  valid:0.006429
+  Epoch  16/50 | train:0.008117  valid:0.009213
+  Epoch  17/50 | train:0.006390  valid:0.013795
+  Epoch  18/50 | train:0.005688  valid:0.008342
+  Epoch  19/50 | train:0.006788  valid:0.008339
+  Epoch  20/50 | train:0.008700  valid:0.004444
+  Epoch  21/50 | train:0.011348  valid:0.013210
+  Epoch  22/50 | train:0.009472  valid:0.006865
+  Epoch  23/50 | train:0.009816  valid:0.009985
+  Epoch  24/50 | train:0.005771  valid:0.007418
+  Epoch  25/50 | train:0.005038  valid:0.006694
+  Epoch  26/50 | train:0.004877  valid:0.005502
+  Epoch  27/50 | train:0.005386  valid:0.008377
+  Epoch  28/50 | train:0.005616  valid:0.007054
+  Epoch  29/50 | train:0.007261  valid:0.006361
+  Epoch  30/50 | train:0.005584  valid:0.009164
+  Early stopping at epoch 30.
+  Best valid MSE: 0.004444
+  [QTP         ] [mackey]  MAE:0.062363  MSE:0.007322  RMSE:0.085567  R²:0.992592  Params:46
+
+  W=24  K=8  L=1
+  [QTP] Qubits:3  W:24  K:8  L:1  nf:1  Params:60
+  Epoch   1/50 | train:0.923069  valid:0.409787
+  Epoch   2/50 | train:0.152292  valid:0.061083
+  Epoch   3/50 | train:0.058864  valid:0.053202
+  Epoch   4/50 | train:0.031482  valid:0.038115
+  Epoch   5/50 | train:0.026817  valid:0.028383
+  Epoch   6/50 | train:0.027777  valid:0.038488
+  Epoch   7/50 | train:0.018932  valid:0.023071
+  Epoch   8/50 | train:0.010960  valid:0.010341
+  Epoch   9/50 | train:0.009807  valid:0.016292
+  Epoch  10/50 | train:0.010300  valid:0.007701
+  Epoch  11/50 | train:0.009320  valid:0.016940
+  Epoch  12/50 | train:0.008822  valid:0.013526
+  Epoch  13/50 | train:0.007993  valid:0.015637
+  Epoch  14/50 | train:0.012282  valid:0.015284
+  Epoch  15/50 | train:0.008765  valid:0.012338
+  Epoch  16/50 | train:0.009984  valid:0.016054
+  Epoch  17/50 | train:0.010518  valid:0.008687
+  Epoch  18/50 | train:0.008616  valid:0.008818
+  Epoch  19/50 | train:0.009839  valid:0.012231
+  Epoch  20/50 | train:0.010314  valid:0.008440
+  Early stopping at epoch 20.
+  Best valid MSE: 0.007701
+  [QTP         ] [mackey]  MAE:0.061023  MSE:0.007135  RMSE:0.084468  R²:0.992957  Params:60
+
+── A2: 快照密度消融 ──
+
+  W=12  ratio=0.25  K=3  L=1
+  [QTP] Qubits:3  W:12  K:3  L:1  nf:1  Params:38
+  Epoch   1/50 | train:0.504944  valid:0.119592
+  Epoch   2/50 | train:0.053448  valid:0.043815
+  Epoch   3/50 | train:0.049738  valid:0.052559
+  Epoch   4/50 | train:0.042112  valid:0.077599
+  Epoch   5/50 | train:0.038797  valid:0.035158
+  Epoch   6/50 | train:0.033326  valid:0.026799
+  Epoch   7/50 | train:0.034188  valid:0.031727
+  Epoch   8/50 | train:0.039362  valid:0.089113
+  Epoch   9/50 | train:0.032555  valid:0.022771
+  Epoch  10/50 | train:0.026613  valid:0.028591
+  Epoch  11/50 | train:0.029473  valid:0.038601
+  Epoch  12/50 | train:0.032475  valid:0.024898
+  Epoch  13/50 | train:0.036086  valid:0.031890
+  Epoch  14/50 | train:0.028792  valid:0.020080
+  Epoch  15/50 | train:0.024610  valid:0.027321
+  Epoch  16/50 | train:0.028737  valid:0.026132
+  Epoch  17/50 | train:0.024269  valid:0.025125
+  Epoch  18/50 | train:0.017159  valid:0.043610
+  Epoch  19/50 | train:0.023441  valid:0.019604
+  Epoch  20/50 | train:0.018540  valid:0.021689
+  Epoch  21/50 | train:0.022634  valid:0.040348
+  Epoch  22/50 | train:0.029179  valid:0.030030
+  Epoch  23/50 | train:0.023134  valid:0.019862
+  Epoch  24/50 | train:0.018760  valid:0.026299
+  Epoch  25/50 | train:0.012673  valid:0.026162
+  Epoch  26/50 | train:0.011536  valid:0.016067
+  Epoch  27/50 | train:0.014212  valid:0.023784
+  Epoch  28/50 | train:0.016507  valid:0.016639
+  Epoch  29/50 | train:0.014216  valid:0.013569
+  Epoch  30/50 | train:0.013767  valid:0.013048
+  Epoch  31/50 | train:0.011253  valid:0.012526
+  Epoch  32/50 | train:0.011589  valid:0.026445
+  Epoch  33/50 | train:0.014432  valid:0.018935
+  Epoch  34/50 | train:0.018271  valid:0.010817
+  Epoch  35/50 | train:0.011112  valid:0.013921
+  Epoch  36/50 | train:0.012735  valid:0.014118
+  Epoch  37/50 | train:0.009857  valid:0.009953
+  Epoch  38/50 | train:0.010788  valid:0.008951
+  Epoch  39/50 | train:0.010309  valid:0.014117
+  Epoch  40/50 | train:0.011951  valid:0.016347
+  Epoch  41/50 | train:0.010838  valid:0.014522
+  Epoch  42/50 | train:0.010764  valid:0.012334
+  Epoch  43/50 | train:0.012143  valid:0.011157
+  Epoch  44/50 | train:0.010380  valid:0.009205
+  Epoch  45/50 | train:0.009998  valid:0.008597
+  Epoch  46/50 | train:0.010612  valid:0.024471
+  Epoch  47/50 | train:0.009617  valid:0.008943
+  Epoch  48/50 | train:0.009545  valid:0.010178
+  Epoch  49/50 | train:0.013343  valid:0.014370
+  Epoch  50/50 | train:0.010795  valid:0.023102
+  Best valid MSE: 0.008597
+  [QTP         ] [mackey]  MAE:0.085289  MSE:0.012031  RMSE:0.109685  R²:0.987632  Params:38
+
+  W=12  ratio=0.33  K=4  L=1
+  [QTP] Qubits:3  W:12  K:4  L:1  nf:1  Params:36
+  Epoch   1/50 | train:0.520137  valid:0.133881
+  Epoch   2/50 | train:0.062932  valid:0.042830
+  Epoch   3/50 | train:0.034392  valid:0.037290
+  Epoch   4/50 | train:0.023646  valid:0.023200
+  Epoch   5/50 | train:0.016195  valid:0.008240
+  Epoch   6/50 | train:0.012258  valid:0.014714
+  Epoch   7/50 | train:0.009655  valid:0.010410
+  Epoch   8/50 | train:0.008580  valid:0.032208
+  Epoch   9/50 | train:0.012967  valid:0.006084
+  Epoch  10/50 | train:0.008979  valid:0.008436
+  Epoch  11/50 | train:0.007841  valid:0.005597
+  Epoch  12/50 | train:0.010357  valid:0.010429
+  Epoch  13/50 | train:0.010376  valid:0.011394
+  Epoch  14/50 | train:0.005917  valid:0.004588
+  Epoch  15/50 | train:0.006833  valid:0.005963
+  Epoch  16/50 | train:0.006013  valid:0.007474
+  Epoch  17/50 | train:0.008891  valid:0.007061
+  Epoch  18/50 | train:0.005984  valid:0.003614
+  Epoch  19/50 | train:0.006044  valid:0.005818
+  Epoch  20/50 | train:0.004624  valid:0.007948
+  Epoch  21/50 | train:0.005541  valid:0.007295
+  Epoch  22/50 | train:0.004346  valid:0.002389
+  Epoch  23/50 | train:0.008781  valid:0.005934
+  Epoch  24/50 | train:0.005748  valid:0.004088
+  Epoch  25/50 | train:0.003771  valid:0.012719
+  Epoch  26/50 | train:0.004245  valid:0.004325
+  Epoch  27/50 | train:0.004533  valid:0.002276
+  Epoch  28/50 | train:0.004754  valid:0.005324
+  Epoch  29/50 | train:0.005111  valid:0.003441
+  Epoch  30/50 | train:0.004271  valid:0.008883
+  Epoch  31/50 | train:0.004349  valid:0.003549
+  Epoch  32/50 | train:0.003427  valid:0.003647
+  Epoch  33/50 | train:0.004479  valid:0.008149
+  Epoch  34/50 | train:0.004846  valid:0.005171
+  Epoch  35/50 | train:0.004662  valid:0.005342
+  Epoch  36/50 | train:0.004256  valid:0.003715
+  Epoch  37/50 | train:0.003664  valid:0.002546
+  Early stopping at epoch 37.
+  Best valid MSE: 0.002276
+  [QTP         ] [mackey]  MAE:0.049567  MSE:0.004843  RMSE:0.069594  R²:0.995021  Params:36
+
+  W=12  ratio=0.5  K=6  L=1
+  [QTP] Qubits:3  W:12  K:6  L:1  nf:1  Params:34
+  Epoch   1/50 | train:0.881341  valid:0.262493
+  Epoch   2/50 | train:0.177797  valid:0.122265
+  Epoch   3/50 | train:0.068120  valid:0.053780
+  Epoch   4/50 | train:0.035776  valid:0.057516
+  Epoch   5/50 | train:0.027545  valid:0.017739
+  Epoch   6/50 | train:0.021859  valid:0.024295
+  Epoch   7/50 | train:0.018808  valid:0.013101
+  Epoch   8/50 | train:0.015032  valid:0.063009
+  Epoch   9/50 | train:0.017275  valid:0.009341
+  Epoch  10/50 | train:0.011443  valid:0.012698
+  Epoch  11/50 | train:0.009017  valid:0.009530
+  Epoch  12/50 | train:0.012527  valid:0.007426
+  Epoch  13/50 | train:0.016246  valid:0.015277
+  Epoch  14/50 | train:0.008747  valid:0.005681
+  Epoch  15/50 | train:0.008690  valid:0.010073
+  Epoch  16/50 | train:0.007025  valid:0.010302
+  Epoch  17/50 | train:0.008568  valid:0.005920
+  Epoch  18/50 | train:0.006848  valid:0.012668
+  Epoch  19/50 | train:0.006621  valid:0.007847
+  Epoch  20/50 | train:0.007603  valid:0.015674
+  Epoch  21/50 | train:0.006894  valid:0.012928
+  Epoch  22/50 | train:0.008383  valid:0.008154
+  Epoch  23/50 | train:0.009869  valid:0.008246
+  Epoch  24/50 | train:0.010707  valid:0.019629
+  Early stopping at epoch 24.
+  Best valid MSE: 0.005681
+  [QTP         ] [mackey]  MAE:0.070101  MSE:0.010320  RMSE:0.101589  R²:0.989390  Params:34
+
+  W=12  ratio=0.75  K=9  L=1
+  [QTP] Qubits:3  W:12  K:9  L:1  nf:1  Params:34
+  Epoch   1/50 | train:0.889711  valid:0.283778
+  Epoch   2/50 | train:0.166258  valid:0.100511
+  Epoch   3/50 | train:0.054759  valid:0.034640
+  Epoch   4/50 | train:0.026595  valid:0.033313
+  Epoch   5/50 | train:0.020583  valid:0.009931
+  Epoch   6/50 | train:0.015666  valid:0.017032
+  Epoch   7/50 | train:0.016466  valid:0.017474
+  Epoch   8/50 | train:0.011998  valid:0.021391
+  Epoch   9/50 | train:0.013014  valid:0.011532
+  Epoch  10/50 | train:0.012204  valid:0.013926
+  Epoch  11/50 | train:0.010632  valid:0.008461
+  Epoch  12/50 | train:0.015127  valid:0.014787
+  Epoch  13/50 | train:0.019401  valid:0.016716
+  Epoch  14/50 | train:0.010293  valid:0.006766
+  Epoch  15/50 | train:0.009057  valid:0.008262
+  Epoch  16/50 | train:0.007854  valid:0.011678
+  Epoch  17/50 | train:0.008800  valid:0.006184
+  Epoch  18/50 | train:0.007332  valid:0.011642
+  Epoch  19/50 | train:0.007153  valid:0.005587
+  Epoch  20/50 | train:0.008806  valid:0.006354
+  Epoch  21/50 | train:0.005983  valid:0.009126
+  Epoch  22/50 | train:0.008850  valid:0.006600
+  Epoch  23/50 | train:0.010416  valid:0.014188
+  Epoch  24/50 | train:0.010258  valid:0.021599
+  Epoch  25/50 | train:0.011092  valid:0.017331
+  Epoch  26/50 | train:0.007511  valid:0.008471
+  Epoch  27/50 | train:0.010617  valid:0.013103
+  Epoch  28/50 | train:0.008705  valid:0.009056
+  Epoch  29/50 | train:0.009367  valid:0.006701
+  Early stopping at epoch 29.
+  Best valid MSE: 0.005587
+  [QTP         ] [mackey]  MAE:0.057296  MSE:0.005935  RMSE:0.077040  R²:0.993898  Params:34
+
+  W=12  ratio=1.0  K=12  L=1
+  [QTP] Qubits:3  W:12  K:12  L:1  nf:1  Params:32
+  Epoch   1/50 | train:0.843410  valid:0.123003
+  Epoch   2/50 | train:0.086323  valid:0.047228
+  Epoch   3/50 | train:0.028695  valid:0.049480
+  Epoch   4/50 | train:0.024162  valid:0.060086
+  Epoch   5/50 | train:0.021306  valid:0.022707
+  Epoch   6/50 | train:0.017841  valid:0.025427
+  Epoch   7/50 | train:0.017137  valid:0.048765
+  Epoch   8/50 | train:0.020320  valid:0.041527
+  Epoch   9/50 | train:0.020647  valid:0.021539
+  Epoch  10/50 | train:0.015728  valid:0.024771
+  Epoch  11/50 | train:0.014922  valid:0.024144
+  Epoch  12/50 | train:0.032859  valid:0.041363
+  Epoch  13/50 | train:0.025139  valid:0.035628
+  Epoch  14/50 | train:0.020062  valid:0.022096
+  Epoch  15/50 | train:0.019101  valid:0.020640
+  Epoch  16/50 | train:0.025514  valid:0.029986
+  Epoch  17/50 | train:0.019786  valid:0.023005
+  Epoch  18/50 | train:0.014395  valid:0.039044
+  Epoch  19/50 | train:0.018558  valid:0.017730
+  Epoch  20/50 | train:0.016726  valid:0.025294
+  Epoch  21/50 | train:0.026771  valid:0.021676
+  Epoch  22/50 | train:0.024215  valid:0.022373
+  Epoch  23/50 | train:0.017070  valid:0.020714
+  Epoch  24/50 | train:0.017375  valid:0.024260
+  Epoch  25/50 | train:0.024400  valid:0.025651
+  Epoch  26/50 | train:0.015356  valid:0.030246
+  Epoch  27/50 | train:0.014726  valid:0.020399
+  Epoch  28/50 | train:0.016490  valid:0.031646
+  Epoch  29/50 | train:0.017739  valid:0.023479
+  Early stopping at epoch 29.
+  Best valid MSE: 0.017730
+  [QTP         ] [mackey]  MAE:0.114187  MSE:0.019915  RMSE:0.141119  R²:0.979526  Params:32
+
+── A3: 层数×窗口 联合消融 ──
+
+  W=4  K=1  L=1
+  [QTP] Qubits:3  W:4  K:1  L:1  nf:1  Params:22
+  Epoch   1/50 | train:0.763985  valid:0.097199
+  Epoch   2/50 | train:0.066186  valid:0.025642
+  Epoch   3/50 | train:0.034853  valid:0.036534
+  Epoch   4/50 | train:0.029383  valid:0.033749
+  Epoch   5/50 | train:0.028512  valid:0.029713
+  Epoch   6/50 | train:0.026464  valid:0.027983
+  Epoch   7/50 | train:0.028236  valid:0.029238
+  Epoch   8/50 | train:0.029393  valid:0.027104
+  Epoch   9/50 | train:0.023913  valid:0.050685
+  Epoch  10/50 | train:0.025395  valid:0.018109
+  Epoch  11/50 | train:0.024552  valid:0.016383
+  Epoch  12/50 | train:0.021580  valid:0.019130
+  Epoch  13/50 | train:0.021648  valid:0.018128
+  Epoch  14/50 | train:0.028183  valid:0.022388
+  Epoch  15/50 | train:0.024189  valid:0.024948
+  Epoch  16/50 | train:0.024356  valid:0.020701
+  Epoch  17/50 | train:0.027591  valid:0.027938
+  Epoch  18/50 | train:0.019731  valid:0.012376
+  Epoch  19/50 | train:0.026185  valid:0.021197
+  Epoch  20/50 | train:0.021102  valid:0.014886
+  Epoch  21/50 | train:0.019231  valid:0.029236
+  Epoch  22/50 | train:0.017395  valid:0.035164
+  Epoch  23/50 | train:0.014924  valid:0.019950
+  Epoch  24/50 | train:0.015742  valid:0.018705
+  Epoch  25/50 | train:0.016895  valid:0.010823
+  Epoch  26/50 | train:0.014941  valid:0.010099
+  Epoch  27/50 | train:0.010026  valid:0.029451
+  Epoch  28/50 | train:0.009698  valid:0.014530
+  Epoch  29/50 | train:0.010982  valid:0.009926
+  Epoch  30/50 | train:0.012224  valid:0.011007
+  Epoch  31/50 | train:0.011253  valid:0.007579
+  Epoch  32/50 | train:0.010746  valid:0.014785
+  Epoch  33/50 | train:0.010672  valid:0.014998
+  Epoch  34/50 | train:0.011468  valid:0.043157
+  Epoch  35/50 | train:0.019544  valid:0.013052
+  Epoch  36/50 | train:0.014589  valid:0.014035
+  Epoch  37/50 | train:0.013956  valid:0.016540
+  Epoch  38/50 | train:0.011113  valid:0.007918
+  Epoch  39/50 | train:0.010919  valid:0.008726
+  Epoch  40/50 | train:0.011343  valid:0.011614
+  Epoch  41/50 | train:0.011088  valid:0.021659
+  Early stopping at epoch 41.
+  Best valid MSE: 0.007579
+  [QTP         ] [mackey]  MAE:0.077132  MSE:0.010543  RMSE:0.102677  R²:0.988813  Params:22
+
+  W=4  K=1  L=2
+  [QTP] Qubits:3  W:4  K:1  L:2  nf:1  Params:26
+  Epoch   1/50 | train:0.667168  valid:0.036907
+  Epoch   2/50 | train:0.051119  valid:0.024844
+  Epoch   3/50 | train:0.036377  valid:0.046316
+  Epoch   4/50 | train:0.032654  valid:0.042103
+  Epoch   5/50 | train:0.030059  valid:0.026133
+  Epoch   6/50 | train:0.026262  valid:0.037403
+  Epoch   7/50 | train:0.027524  valid:0.034588
+  Epoch   8/50 | train:0.026664  valid:0.021742
+  Epoch   9/50 | train:0.029557  valid:0.062029
+  Epoch  10/50 | train:0.033688  valid:0.032612
+  Epoch  11/50 | train:0.030386  valid:0.024878
+  Epoch  12/50 | train:0.023345  valid:0.020689
+  Epoch  13/50 | train:0.027360  valid:0.016643
+  Epoch  14/50 | train:0.030030  valid:0.027974
+  Epoch  15/50 | train:0.025544  valid:0.028906
+  Epoch  16/50 | train:0.023252  valid:0.031576
+  Epoch  17/50 | train:0.024151  valid:0.022462
+  Epoch  18/50 | train:0.022958  valid:0.017650
+  Epoch  19/50 | train:0.017883  valid:0.013435
+  Epoch  20/50 | train:0.015832  valid:0.014856
+  Epoch  21/50 | train:0.015504  valid:0.017998
+  Epoch  22/50 | train:0.016658  valid:0.041662
+  Epoch  23/50 | train:0.015830  valid:0.018777
+  Epoch  24/50 | train:0.019096  valid:0.012109
+  Epoch  25/50 | train:0.021165  valid:0.058007
+  Epoch  26/50 | train:0.024567  valid:0.019464
+  Epoch  27/50 | train:0.019387  valid:0.045427
+  Epoch  28/50 | train:0.015903  valid:0.017800
+  Epoch  29/50 | train:0.020386  valid:0.015477
+  Epoch  30/50 | train:0.015835  valid:0.012300
+  Epoch  31/50 | train:0.015269  valid:0.010875
+  Epoch  32/50 | train:0.015832  valid:0.024963
+  Epoch  33/50 | train:0.015999  valid:0.020074
+  Epoch  34/50 | train:0.015277  valid:0.014353
+  Epoch  35/50 | train:0.018680  valid:0.014184
+  Epoch  36/50 | train:0.018669  valid:0.013690
+  Epoch  37/50 | train:0.022720  valid:0.010268
+  Epoch  38/50 | train:0.016054  valid:0.019915
+  Epoch  39/50 | train:0.013653  valid:0.025322
+  Epoch  40/50 | train:0.019978  valid:0.022226
+  Epoch  41/50 | train:0.014009  valid:0.031188
+  Epoch  42/50 | train:0.015326  valid:0.008768
+  Epoch  43/50 | train:0.015344  valid:0.011537
+  Epoch  44/50 | train:0.017364  valid:0.041078
+  Epoch  45/50 | train:0.024862  valid:0.012247
+  Epoch  46/50 | train:0.016134  valid:0.016481
+  Epoch  47/50 | train:0.015410  valid:0.019032
+  Epoch  48/50 | train:0.015691  valid:0.011826
+  Epoch  49/50 | train:0.014601  valid:0.011407
+  Epoch  50/50 | train:0.017904  valid:0.045958
+  Best valid MSE: 0.008768
+  [QTP         ] [mackey]  MAE:0.096593  MSE:0.017942  RMSE:0.133948  R²:0.980961  Params:26
+
+  W=4  K=1  L=3
+  [QTP] Qubits:3  W:4  K:1  L:3  nf:1  Params:30
+  Epoch   1/50 | train:0.566677  valid:0.064328
+  Epoch   2/50 | train:0.060214  valid:0.044089
+  Epoch   3/50 | train:0.036741  valid:0.062987
+  Epoch   4/50 | train:0.033542  valid:0.039688
+  Epoch   5/50 | train:0.032418  valid:0.027216
+  Epoch   6/50 | train:0.026300  valid:0.042036
+  Epoch   7/50 | train:0.027637  valid:0.030212
+  Epoch   8/50 | train:0.026046  valid:0.028096
+  Epoch   9/50 | train:0.026186  valid:0.040202
+  Epoch  10/50 | train:0.024442  valid:0.027672
+  Epoch  11/50 | train:0.028345  valid:0.016232
+  Epoch  12/50 | train:0.017994  valid:0.016630
+  Epoch  13/50 | train:0.020999  valid:0.012570
+  Epoch  14/50 | train:0.022298  valid:0.017256
+  Epoch  15/50 | train:0.018373  valid:0.014376
+  Epoch  16/50 | train:0.020967  valid:0.026448
+  Epoch  17/50 | train:0.018991  valid:0.034418
+  Epoch  18/50 | train:0.022988  valid:0.017458
+  Epoch  19/50 | train:0.017604  valid:0.014928
+  Epoch  20/50 | train:0.017295  valid:0.023288
+  Epoch  21/50 | train:0.016550  valid:0.016909
+  Epoch  22/50 | train:0.016228  valid:0.042569
+  Epoch  23/50 | train:0.015040  valid:0.019278
+  Early stopping at epoch 23.
+  Best valid MSE: 0.012570
+  [QTP         ] [mackey]  MAE:0.073783  MSE:0.010180  RMSE:0.100896  R²:0.989197  Params:30
+
+  W=4  K=1  L=5.1
+Traceback (most recent call last):
+  File "/mnt/sda/zhangxiaoying/time_series/20260420/main.py", line 528, in <module>
+    planA()
+  File "/mnt/sda/zhangxiaoying/time_series/20260420/main.py", line 260, in planA
+    m = run_one("QTP", DATASET, W, K, L, EPOCHS, ROOT)
+  File "/mnt/sda/zhangxiaoying/time_series/20260420/main.py", line 136, in run_one
+    model = build_model(model_name, window, nf, mcfg)
+  File "/mnt/sda/zhangxiaoying/time_series/20260420/Model.py", line 809, in build_model
+    return QuantumTemporalPredictor(model_cfg).to(DEVICE)
+  File "/mnt/sda/zhangxiaoying/time_series/20260420/Model.py", line 328, in __init__
+    self._register_parameters()
+  File "/mnt/sda/zhangxiaoying/time_series/20260420/Model.py", line 354, in _register_parameters
+    for layer in range(cfg.layers):
+TypeError: 'float' object cannot be interpreted as an integer
